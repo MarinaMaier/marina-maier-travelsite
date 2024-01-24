@@ -38,6 +38,7 @@ h4 {
     font-weight: 400; 
     line-height: 14.4px; 
     color: #DB7A4E;
+    padding-bottom: 10px;
 }
 
 p { 
@@ -78,26 +79,30 @@ p {
 
 .footer {
     background-color: #FEFAF5;
-    padding-left: 80px;
 }
 
 .footer-box-flex {
     display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
+    justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .footer-box {
     display: inline-block;
-    padding-right: 80px;
-    margin: 10px 40px 30px 40px;
+    margin: 10px 10px 10px 40px;
 }
 
-.view .footer-box--no-margin {
+.footer-hours-items {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.view .footer-box-content {
     margin: 0;
 }
-
-
 
 .icon-inst {
     width: 30px;
@@ -111,4 +116,8 @@ p {
 .icon-x {
     width: 34px;
     height: 30px;
+}
+
+.icons {
+    padding-right: 50px;
 }
