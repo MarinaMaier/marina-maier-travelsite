@@ -26,6 +26,44 @@
     margin-top: 5%;
 }
 
+.section-heading {
+    position: relative;
+    margin-top: 51px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.cards-box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.cards-image {
+    width: 281px;
+    height: 419px;
+    border-radius: 5px;
+    border: 1px solid #00000033;
+    margin: 30px 30px 100px 0;
+    box-shadow: 0px 4px 4px 0 #00000033;
+}
+
+.destination-cards {
+    position: relative;
+    margin: 5px;
+}
+.card-heading {
+    position: absolute;
+    top: 390px;
+    right: 65px;
+}
+
+#cards-heading-color {
+    color: #FFF;
+}
+
 button {
     background-color: #DB7A4E;
     border: none;
@@ -37,3 +75,5 @@ button {
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+
