@@ -61,20 +61,42 @@ p {
     list-style: none;
 }
 
+.nav-bar--fixed {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    margin: 0;
+}    
+
 .nav-bar {
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 100px 0 100px;
+    position: sticky;
+    gap: 500px;
+    top: 0;
+    z-index: 100;
 }
 
 .navigation_list {
     display: flex;
     flex-direction: row;
-    gap: 41px;
+    gap: 12px;
+    padding-left: 20px;
 }
 
+.navigation-item {
+    padding-top: 12px;
+    padding-bottom: 9px;
+}
+.navigation_list li.active {
+    border-bottom: 3px solid #DB7A4E;
+}
 
 
 .footer {
