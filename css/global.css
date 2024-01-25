@@ -8,7 +8,7 @@ h1 {
     font-variant: normal; 
     font-weight: 700; 
     line-height: 58.8px;
-    color: olive; 
+    color: #FFFFFF; 
 }
 
 h2 { 
@@ -31,7 +31,18 @@ h3 {
     color: #335576;
 }
 
-h4 { 
+h4 {
+    font-family: Verdana; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 14.4px; 
+    color: #000008;
+    padding-bottom: 10px;
+}
+
+h5 { 
     font-family: Verdana; 
     font-size: 12px; 
     font-style: normal; 
