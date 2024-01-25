@@ -116,11 +116,9 @@ p {
     line-height: 21.4286px; 
 }
 
+
 .footer {
     background-color: #FEFAF5;
-}
-
-.footer-box-flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +126,7 @@ p {
     padding-bottom: 30px;
 }
 
-.footer-box {
+.footer__container {
     display: inline-block;
     margin: 10px 10px 10px 40px;
 }
@@ -139,20 +137,20 @@ p {
     gap: 45px;
 }
 
-.view .footer-box-content {
+.view .footer__content {
     margin: 0;
 }
 
-.icon-inst {
+.icon__inst {
     width: 30px;
     height: 30px;
 }
-.icon-f {
+.icon__f {
     width: 15px;
     height: 30px;
 }
 
-.icon-x {
+.icon__x {
     width: 34px;
     height: 30px;
 }
