@@ -81,7 +81,7 @@ p {
     width: 100%;
     top: 0;
     margin: 0;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 650px;
     top: 0;
@@ -128,7 +128,7 @@ p {
 
 .footer__container {
     display: inline-block;
-    margin: 10px 10px 10px 40px;
+    margin: 10px 10px 10px;
 }
 
 .footer-hours-items {
@@ -137,7 +137,7 @@ p {
     gap: 45px;
 }
 
-.view .footer__content {
+.footer__content {
     margin: 0;
 }
 
