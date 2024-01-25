@@ -4,6 +4,7 @@
     height: 764px;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     margin-top: 20px;
 }
 
