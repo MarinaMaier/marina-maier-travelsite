@@ -7,15 +7,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 100px 0 100px;
+    /* margin: 0 100px 0 100px; */
 }
 
 .content-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 48%;
-    padding-right: 7rem;
+    max-width: 43%;
 }
 
 .content-text {
@@ -42,10 +41,14 @@
 
 .cards-box {
     display: flex;
-    flex-flow: wrap;
     justify-content: center;
-    align-items: center;
+    height: 530px;
 } 
+
+.destination-cards {
+    display: flex;
+    box-sizing: content-box;
+}
 
 .cards-image {
     width: 281px;
@@ -56,14 +59,15 @@
     box-shadow: 0px 4px 4px 0 #00000033;
 }
 
-.card-heading {
-    position: absolute;
-    top: 380px;
-    right: 56px;
+.cards-heading {
+   position: relative;
+   bottom: 176px;
+   left: 164px;
 }
 
-#cards-heading-color {
-    color: #FFF;
+
+#color {
+    color: #FFFFFF;
 }
 
 button {
