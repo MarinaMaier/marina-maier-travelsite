@@ -1,8 +1,17 @@
 .hawaii-destination .hawaii-img {
     background-image: url(../assets/Images/hawaii.jpg);
     width: 100%;
-    height: 800px;
+    height: 764px;
     background-position: center;
     background-size: cover;
     margin-top: 20px;
+}
+
+.hero-heading {
+    display: flex;
+    padding-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
