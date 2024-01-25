@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 h1 { 
-    font-family: Verdana; 
+    font-family: Verdana, sans-serif; 
     font-size: 80px; 
     font-style: normal; 
     font-variant: normal; 
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 { 
-    font-family: Verdana; 
+    font-family: Verdana, sans-serif; 
     font-size: 40px; 
     font-style: normal; 
     font-variant: normal; 
@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 { 
-    font-family: Verdana; 
+    font-family: Verdana, sans-serif; 
     font-size: 24px; 
     font-style: normal; 
     font-variant: normal; 
@@ -32,7 +32,7 @@ h3 {
 }
 
 h4 {
-    font-family: Verdana; 
+    font-family: Verdana, sans-serif; 
     font-size: 16px; 
     font-style: normal; 
     font-variant: normal; 
@@ -43,7 +43,7 @@ h4 {
 }
 
 h5 { 
-    font-family: Verdana; 
+    font-family: Verdana, sans-serif; 
     font-size: 12px; 
     font-style: normal; 
     font-variant: normal; 
@@ -54,13 +54,22 @@ h5 {
 }
 
 p { 
-    font-family: Verdana, Geneva, sans-serif; 
+    font-family: Verdana, sans-serif; 
     font-size: 16px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
     line-height: 21.4286px; 
     color: #335576;
+}
+
+.activity-cards {
+    font-family: Verdana, sans-serif; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 21.4286px; 
 }
 
 .nav-bar .navigation ul li {
