@@ -3,94 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destination: Hawaii</title>
+    <title>Hawaii</title>
     <link href="../css/destinations.css" rel="stylesheet">
     <link href="../css/global.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header class="nav-bar--fixed">
-        <div class="nav-bar">
-            <div class="nav-bar_heading">
-                <h3>Travel Site</h3>
-            </div>
-            <nav class="navigation">
-                <ul class="navigation_list">
-                    <li class="navigation-item">Home</li>
-                    <li class="navigation-item active">Hawaii</li>
-                    <li class="navigation-item">Iceland</li>
-                    <li class="navigation-item">Greece</li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <nav class="navigation">
+            <h3>Travel Site</h3>
+            <ul class="navigation__list">
+                <li class="navigation__item">Home</li>
+                <li class="navigation__item--active">Hawaii</li>
+                <li class="navigation__item">Iceland</li>
+                <li class="navigation__item">Greece</li>
+            </ul>
+        </nav>
     </header>
     <hero>
-        <section class="hawaii-destination">
-            <div class="hawaii-img">
-                <h1 class="hero-heading">Hawaii</h1>
-                    <div class="activity-box">
-                        <div class="friday-activity">
-                            <h4 class="activity-heading">Friday</h4>
-                            <ul class="activity-cards">
-                                <li>Breakfast</li>
-                                <li>Lunch</li>
-                                <li>Dinner</li>
-                                <li>Snorkeling</li>
-                            </ul> 
-                        </div> 
-                        <div class="saturday-activity">
-                            <h4 class="activity-heading">Saturday</h4>
-                            <ul class="activity-cards">
-                                <li>Breakfast</li>
-                                <li>Lunch</li>
-                                <li>Dinner</li>
-                                <li>Snorkeling</li>
-                            </ul> 
-                        </div> 
-                        <div class="sunday-activity">
-                            <h4 class="activity-heading">Sunday</h4>
-                            <ul class="activity-cards">
-                                <li>Breakfast</li>
-                                <li>Lunch</li>
-                                <li>Dinner</li>
-                                <li>Snorkeling</li>
-                            </ul> 
-                        </div> 
+        <section>
+            <div class="hero__hawaii-img">
+                <h1 class="hero__heading">Hawaii</h1>
+                <div class="activity__container">
+                    <div class="activity__card">
+                        <h4 class="activity__heading">Friday</h4>
+                        <ul class="activity__item">
+                            <li>Breakfast</li>
+                            <li>Lunch</li>
+                            <li>Dinner</li>
+                            <li>Snorkeling</li>
+                        </ul>
                     </div>
+                    <div class="activity__card">
+                        <h4 class="activity__heading">Saturday</h4>
+                        <ul class="activity__item">
+                            <li>Breakfast</li>
+                            <li>Lunch</li>
+                            <li>Dinner</li>
+                            <li>Snorkeling</li>
+                        </ul>
+                    </div>
+                    <div class="activity__card">
+                        <h4 class="activity__heading">Sunday</h4>
+                        <ul class="activity__item">
+                            <li>Breakfast</li>
+                            <li>Lunch</li>
+                            <li>Dinner</li>
+                            <li>Snorkeling</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
-    <hero>
-        <footer class="footer">
-            <div class="footer-box-flex">
-                <div class="footer-box view">   
-                    <h3>Contact</h3>
-                    <h4 class="footer-box-content">EMAIL</h4>
-                    <p class="footer-box-content">info@travelsite.com</p>
-                </div>
-                <div class="footer-box view"> 
-                    <h3 class="footer-hours">Hours</h3>
-                    <div class="footer-hours-items">
-                        <div>
-                            <h4 class="footer-box-content">MONDAY - FRIDAY</h4>
-                            <p class="footer-box-content">9:00 AM - 5:00 PM</p>
-                        </div>
-                        <div>
-                            <h4 class="footer-box-content">SATURDAY</h4>
-                            <p class="footer-box-content">9:00 AM - 4:00 PM</p>
-                        </div>
-                        <div>
-                            <h4 class="footer-box-content">SUNDAY</h4>
-                            <p class="footer-box-content">Closed</p>
+        <hero>
+            <footer class="footer">
+                <div class="footer-box-flex">
+                    <div class="footer-box view">
+                        <h3>Contact</h3>
+                        <h5 class="footer-box-content">EMAIL</h4>
+                        <p class="footer-box-content">info@travelsite.com</p>
+                    </div>
+                    <div class="footer-box view">
+                        <h3 class="footer-hours">Hours</h3>
+                        <div class="footer-hours-items">
+                            <div>
+                                <h5 class="footer-box-content">MONDAY - FRIDAY</h4>
+                                <p class="footer-box-content">9:00 AM - 5:00 PM</p>
+                            </div>
+                            <div>
+                                <h5 class="footer-box-content">SATURDAY</h4>
+                                <p class="footer-box-content">9:00 AM - 4:00 PM</p>
+                            </div>
+                            <div>
+                                <h5 class="footer-box-content">SUNDAY</h4>
+                                <p class="footer-box-content">Closed</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="footer-box view">
+                        <h3 id="social">Social</h3>
+                        <a href="https://www.instagram.com/"><img class="icon-inst icons"
+                                src="../assets/Icons/icon-instagram.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/"><img class="icon-f icons"
+                                src="../assets/Icons/icon-facebook.png" alt="facebook"></a>
+                        <a href="https://twitter.com/"><img class="icon-x icons" src="../assets/Icons/icon-twitter.png"
+                                alt="twitter"></a>
+                    </div>
                 </div>
-                <div class="footer-box view">
-                    <h3 id="social">Social</h3>
-                    <a href="https://www.instagram.com/"><img class="icon-inst icons" src="../assets/Icons/icon-instagram.png"  alt="instagram"></a>
-                    <a href="https://www.facebook.com/"><img class="icon-f icons" src="../assets/Icons/icon-facebook.png"  alt="facebook"></a>
-                    <a href="https://twitter.com/"><img class="icon-x icons" src="../assets/Icons/icon-twitter.png"  alt="twitter"></a>
-                </div>
-            </div>
-        </footer>
+            </footer>
 </body>
+
 </html>

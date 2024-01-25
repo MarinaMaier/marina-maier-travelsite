@@ -63,16 +63,8 @@ p {
     color: #335576;
 }
 
-.activity-cards {
-    font-family: Verdana, sans-serif; 
-    font-size: 16px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 21.4286px; 
-}
-
-.nav-bar .navigation ul li {
+/* Naviganion */
+.navigation ul {
     font-family: Verdana, Geneva, sans-serif; 
     font-size: 15px; 
     font-style: normal; 
@@ -82,38 +74,47 @@ p {
     list-style: none;
 }
 
-.nav-bar--fixed {
-    position:fixed;
+.navigation {
+    background-color: #FFFFFF;
+    display: flex;
+    position: fixed;
     width: 100%;
     top: 0;
     margin: 0;
-}    
-
-.nav-bar {
-    background-color: #FFFFFF;
-    display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 500px;
+    gap: 650px;
     top: 0;
     z-index: 100;
 }
 
-.navigation_list {
+.navigation__list {
     display: flex;
     flex-direction: row;
     gap: 15px;
     width: 10%;
+    justify-content: flex-end;
+    text-align: center;
 }
 
-.navigation-item {
+.navigation__item {
     padding-top: 12px;
     padding-bottom: 9px;
 }
-.navigation_list li.active {
+.navigation__list .navigation__item--active {
+    padding-top: 12px;
+    padding-bottom: 9px;
     border-bottom: 3px solid #DB7A4E;
 }
 
+.activity__item {
+    font-family: Verdana, sans-serif; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 21.4286px; 
+}
 
 .footer {
     background-color: #FEFAF5;
