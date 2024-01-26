@@ -1,26 +1,21 @@
-.section-color {
+.hero__container {
     background-color: #FEFAF5;
     height: 526px;
     margin-top: 80px;
-}
-.content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin: 0 100px 0 100px; */
 }
 
-.content-box {
+.hero__content{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 43%;
-}
-
-.content-text {
+    max-width: 47%;
     margin-bottom: 10px;
 }
-.content-img {
+.hero__img {
+    display: flex;
     width: 450px;
     height: 380px;
     margin-top: 5%;
@@ -33,7 +28,7 @@
 .section-heading {
     display: flex;
     padding-top: 30px;
-    margin-left: 100px;
+    margin-left: 63px;
     margin-bottom: 0;
     align-items: center;
     justify-content: space-between;
@@ -80,6 +75,8 @@ button {
     font-weight: 400;
     color: #FFFFFF;
     margin-top: 20px;
+    max-width: 161px;
+    text-align: center;
 }
 
 
