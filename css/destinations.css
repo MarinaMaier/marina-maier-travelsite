@@ -7,6 +7,25 @@
     background-attachment: fixed;
     margin-top: 20px;
 }
+.hero__iceland-img {
+    background-image: url(../assets/Images/iceland.jpg);
+    width: 100%;
+    height: 764px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+.hero_greece-img {
+    background-image: url(../assets/Images/greece.jpg);
+    width: 100%;
+    height: 764px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
 
 .hero__heading {
     display: flex;
