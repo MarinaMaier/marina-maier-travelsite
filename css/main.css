@@ -37,9 +37,15 @@
 .recommendations__cards {
     display: flex;
     justify-content: center;
+    margin: 30px;
     height: 530px;
+    gap:30px;
 } 
 
+a {
+    text-decoration: none;
+    height: fit-content;
+}
 .card__image--hawaii {
     background-image: url(../assets/Images/hawaii.jpg);
     width: 281px;
@@ -48,7 +54,6 @@
     background-size: cover;
     border-radius: 5px;
     border: 1px solid #00000033;
-    margin: 30px 30px 100px 0;
     box-shadow: 0px 4px 4px 0 #00000033;
 }
 
@@ -60,7 +65,6 @@
     background-size: cover;
     border-radius: 5px;
     border: 1px solid #00000033;
-    margin: 30px 30px 100px 0;
     box-shadow: 0px 4px 4px 0 #00000033;
 }
 
@@ -72,7 +76,6 @@
     background-size: cover;
     border-radius: 5px;
     border: 1px solid #00000033;
-    margin: 30px 30px 100px 0;
     box-shadow: 0px 4px 4px 0 #00000033;
 }
 
@@ -81,6 +84,7 @@
     position: relative;
     top: 350px;
     left: 164px;
+    text-decoration: none;
 }
 
 button {
