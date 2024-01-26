@@ -46,6 +46,7 @@ a {
     text-decoration: none;
     height: fit-content;
 }
+
 .card__image--hawaii {
     background-image: url(../assets/Images/hawaii.jpg);
     width: 281px;
@@ -84,7 +85,6 @@ a {
     position: relative;
     top: 350px;
     left: 164px;
-    text-decoration: none;
 }
 
 button {
