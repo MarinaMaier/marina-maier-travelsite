@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Site - Home</title>
-    <link href="./css/destinations.css" rel="stylesheet">
-    <link href="./css/global.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
-</head>
+    <link href="./css/destinations.css" rel="stylesheet" />
+    <link href="./css/global.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navigation">
-            <h3><a href="./index.html">Travel Site</a></h3>
-            <ul class="navigation__list">
-                <li class="navigation__item--active">Home</li>
-                <li class="navigation__item">Hawaii</li>
-                <li class="navigation__item">Iceland</li>
-                <li class="navigation__item">Greece</li>
-            </ul>
-        </nav>
+      <nav class="navigation">
+        <h3><a href="./index.html">Travel Site</a></h3>
+        <ul class="navigation__list">
+          <li class="navigation__item--active">
+            <a href="./index.html" alt="home">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./pages/hawaii.html" alt="hawaii">Hawaii</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./pages/greece.html" alt="greece">Greece</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./pages/iceland.html" alt="iceland">Iceland</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <hero>
-        <section class="hero__container">
-            <div class="hero__content">
-                <h2>Travelling Comes With Endless Discoveries</h2>
-                <p>Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                <button>Get started</button>
-            </div>
-            <img class="hero__img" src="./assets/Images/hero.png" alt="content image">
-        </section>
+      <section class="hero__container">
+        <div class="hero__content">
+          <h2>Travelling Comes With Endless Discoveries</h2>
+          <p>
+            Don’t let your dreams be just dreams. Experience the world by
+            booking a vacation with us now.
+          </p>
+          <button>Get started</button>
+        </div>
+        <img
+          class="hero__img"
+          src="./assets/Images/hero.png"
+          alt="content image"
+        />
+      </section>
     </hero>
     <section class="recommendations">
-        <h3 class="recommendations__heading">Recommendations</h3>
-        <div class="recommendations__cards">
-            <a href="./pages/hawaii.html">
-                <div class="card__image--hawaii">
-                <h3 id="color">Hawaii</h3>
-           </div></a>
-            <a href="./pages/iceland.html">
-                <div class="card__image--iceland">
-                <h3 id="color">Iceland</h3>
-            </div></a> 
-            <a href="./pages/greece.html">
-                <div class="card__image--greece">
-                <h3 id="color">Greece</h3>
-            </div></a>
-        </div>
+      <h3 class="recommendations__heading">Recommendations</h3>
+      <div class="recommendations__cards">
+        <a href="./pages/hawaii.html">
+          <div class="card__image--hawaii">
+            <h3 id="color">Hawaii</h3>
+          </div></a
+        >
+        <a href="./pages/iceland.html">
+          <div class="card__image--iceland">
+            <h3 id="color">Iceland</h3>
+          </div></a
+        >
+        <a href="./pages/greece.html">
+          <div class="card__image--greece">
+            <h3 id="color">Greece</h3>
+          </div></a
+        >
+      </div>
     </section>
     <footer>
-        <div class="footer__container">
-            <div class="container__content">
-                <h3>Contact</h3>
-                <h5 class="footer__content">EMAIL</h5>
-                <p class="footer__content">info@travelsite.com</p>
-            </div>
-            <div class="container__content">
-                <h3>Hours</h3>
-                <div class="container__content--items">
-                    <div>
-                        <h5 class="footer__content">MONDAY - FRIDAY</h4>
-                            <p class="footer__content">9:00 AM - 5:00 PM</p>
-                    </div>
-                    <div>
-                        <h5 class="footer__content">SATURDAY</h4>
-                            <p class="footer__content">9:00 AM - 4:00 PM</p>
-                    </div>
-                    <div>
-                        <h5 class="footer__content">SUNDAY</h4>
-                            <p class="footer__content">Closed</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container__content">
-                <h3>Social</h3>
-                <a href="https://www.instagram.com/"><img class="icon__inst icons"
-                        src="./assets/Icons/icon-instagram.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/"><img class="icon__f icons" src="./assets/Icons/icon-facebook.png"
-                        alt="facebook"></a>
-                <a href="https://twitter.com/"><img class="icon__x icons" src="./assets/Icons/icon-twitter.png"
-                        alt="twitter"></a>
-            </div>
+      <div class="footer__container">
+        <div class="container__content">
+          <h3>Contact</h3>
+          <h5 class="footer__content">EMAIL</h5>
+          <p class="footer__content">info@travelsite.com</p>
         </div>
+        <div class="container__content">
+          <h3>Hours</h3>
+          <div class="container__content--items">
+            <div>
+              <h5 class="footer__content">MONDAY - FRIDAY</h5>
+              <p class="footer__content">9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+              <h5 class="footer__content">SATURDAY</h5>
+              <p class="footer__content">9:00 AM - 4:00 PM</p>
+            </div>
+            <div>
+              <h5 class="footer__content">SUNDAY</h5>
+              <p class="footer__content">Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="container__content">
+          <h3>Social</h3>
+          <a href="https://www.instagram.com/"
+            ><img
+              class="icon__inst icons"
+              src="./assets/Icons/icon-instagram.png"
+              alt="instagram"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img
+              class="icon__f icons"
+              src="./assets/Icons/icon-facebook.png"
+              alt="facebook"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              class="icon__x icons"
+              src="./assets/Icons/icon-twitter.png"
+              alt="twitter"
+          /></a>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

@@ -1,104 +1,228 @@
+/* Base Styles (for larger screens like desktops) */
 .hero__container {
-    background-color: #FEFAF5;
-    height: 526px;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #fefaf5;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-.hero__content{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 47%;
-    margin-bottom: 10px;
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 47%;
+  margin-bottom: 10px;
 }
+
 .hero__img {
-    display: flex;
-    width: 450px;
-    height: 380px;
-    margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 380px;
+  margin-top: 5%;
 }
 
 .recommendations {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .recommendations__heading {
-    display: flex;
-    padding-top: 30px;
-    margin-left: 63px;
-    margin-bottom: 0;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  padding-top: 30px;
+  margin-left: 63px;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .recommendations__cards {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    height: 530px;
-    gap:30px;
-} 
-
-a {
-    text-decoration: none;
-    height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  height: auto;
+  gap: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Enable wrapping on smaller screens */
 }
 
 .card__image--hawaii {
-    background-image: url(../assets/Images/hawaii.jpg);
-    width: 281px;
-    height: 419px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    border: 1px solid #00000033;
-    box-shadow: 0px 4px 4px 0 #00000033;
+  background-image: url("../assets/Images/hawaii.jpg"); /* Hawaii image */
+  width: 281px;
+  height: 419px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #00000033;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  box-shadow: 0px 4px 4px 0 #00000033;
 }
 
 .card__image--iceland {
-    background-image: url(../assets/Images/iceland.jpg);
-    width: 281px;
-    height: 419px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    border: 1px solid #00000033;
-    box-shadow: 0px 4px 4px 0 #00000033;
+  background-image: url("../assets/Images/iceland.jpg"); /* Iceland image */
+  width: 281px;
+  height: 419px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #00000033;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  box-shadow: 0px 4px 4px 0 #00000033;
 }
 
 .card__image--greece {
-    background-image: url(../assets/Images/greece.jpg);
-    width: 281px;
-    height: 419px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    border: 1px solid #00000033;
-    box-shadow: 0px 4px 4px 0 #00000033;
+  background-image: url("../assets/Images/greece.jpg"); /* Greece image */
+  width: 281px;
+  height: 419px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #00000033;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  box-shadow: 0px 4px 4px 0 #00000033;
+}
+
+.card__image--hawaii:hover,
+.card__image--iceland:hover,
+.card__image--greece:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
 }
 
 #color {
-    color: #FFFFFF;
-    position: relative;
-    top: 350px;
-    left: 164px;
+  color: #ffffff;
+  position: relative;
+  top: 350px;
+  left: 164px;
 }
 
 button {
-    background-color: #DB7A4E;
-    border: none;
-    border-radius: 40px;
-    padding: 10px 35px 10px 35px;
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-top: 20px;
-    max-width: 161px;
-    text-align: center;
+  background-color: #db7a4e;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 35px 10px 35px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
+  max-width: 161px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+button:hover {
+  background-color: #b35e3b;
+  transform: translateY(-2px);
+}
 
+button:active {
+  background-color: #a14f33;
+  transform: translateY(0);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablet View (768px and below) */
+@media (max-width: 768px) {
+  .hero__container {
+    flex-direction: column;
+    height: auto;
+    margin-top: 5rem;
+    padding: 20px;
+  }
+
+  .hero__img {
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .recommendations__heading {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .recommendations__cards {
+    margin: 0;
+    gap: 20px;
+  }
+
+  .card__image--hawaii,
+  .card__image--iceland,
+  .card__image--greece {
+    width: 240px;
+    height: 360px;
+  }
+
+  #color {
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .hero__container {
+    margin-top: 10rem;
+    padding: 10px;
+  }
+
+  .hero__img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .recommendations__heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .recommendations__cards {
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    height: auto;
+  }
+
+  .card__image--hawaii,
+  .card__image--iceland,
+  .card__image--greece {
+    width: 150px;
+    height: 100px;
+  }
+
+  button {
+    width: 100%;
+    max-width: none;
+  }
+
+  #color {
+    top: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
